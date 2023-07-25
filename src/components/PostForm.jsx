@@ -17,7 +17,6 @@ const PostForm = ({create}) => {
 
   return (
     <form>
-    {/* Упрвавляемий компонент */}
     <MyInput 
       value = {post.title}
       type="text" 
